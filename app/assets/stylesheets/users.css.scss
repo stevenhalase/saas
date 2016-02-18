@@ -27,10 +27,22 @@
     border-color: #46b8da;
 }
 
+/* User Profile Page Avatars */
 .user-avatar {
+    width: 200px;
     border-radius: 50%;
     -webkit-box-shadow: 10px 10px 41px -12px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 41px -12px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 41px -12px rgba(0,0,0,0.75);
     border: 2px solid white;
+}
+
+/* User Index Page Avatars */
+.user-index-avatar {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.well.white-bg {
+    background-color: #fdfdfd;
 }
